@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background-color: #232323;
+  margin: 0;
+}
+
+embed {
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 95vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 20%;
+  min-width: 280px;
+  height: 450px;
+  position: relative;
+  background: linear-gradient(
+    306deg,
+    rgba(51, 91, 205, 1) 0%,
+    rgba(250, 70, 234, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 35px 5px #fff;
+  box-shadow: 0px 0px 20px -5px rgba(255, 255, 255, 0.678);
+  transition: 0.5s;
+}
+
+.card:hover {
+  width: 450px;
+  height: 500px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+button {
+  position: relative;
+  margin-top: 50px;
+  height: 50px;
+  width: 225px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+  background-color: rgba(255, 255, 255, 0.845);
+}
+button:hover {
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 35px 5px #fff;
+  box-shadow: 0px 0px 20px -5px rgba(255, 255, 255, 0.678);
+}
+a {
+  text-decoration: none;
+  color: #c1119d;
+}
+button:hover {
+  cursor: pointer;
+}
